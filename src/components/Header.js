@@ -26,7 +26,7 @@ let HeaderImage = () => {
 let HeaderBio = () => {
     return (
         <div className="flex flex-col items-center justify-center w-3/4 h-3/4 p-2">
-            <h3 className="text-3xl font-semibold leading-loose">
+            <h3 className="text-3xl font-semibold leading-loose text-center">
                 Ömer Faruk Karadeniz
             </h3>
             <p className="text-lg leading-relaxed text-center">

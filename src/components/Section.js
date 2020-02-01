@@ -18,7 +18,7 @@ let Section = props => {
     };
 
     return (
-        <section className="flex flex-col w-full h-full mt-2">
+        <section className="flex flex-col justify-center items-center sm:w-full md:w-1/2 h-full mt-2">
             <div
                 className="flex flex-row h-16 w-full border-b-2 border-t-2 border-l-8 border-blue-200 justify-start items-center cursor-pointer hover:bg-blue-200"
                 onClick={() => toggle()}
@@ -33,7 +33,7 @@ let Section = props => {
                 className="accordion__content"
                 style={{maxHeight: `${height}`}}
             >
-                <div>{props.children}</div>
+                <div className={"flex justify-center"}>{props.children}</div>
             </div>
         </section>
     );

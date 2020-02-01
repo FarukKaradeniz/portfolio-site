@@ -7,10 +7,8 @@ const Blogs = () => {
     };
 
     return (
-        <div className="flex items-center justify-center h-full w-full">
-            <div className="flex flex-row justify-center items-center flex-wrap">
-                {list()}
-            </div>
+        <div className="flex flex-row items-center justify-center h-full w-full flex-wrap">
+            {list()}
         </div>
     );
 };
